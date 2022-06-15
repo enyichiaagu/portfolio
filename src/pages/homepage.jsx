@@ -1,8 +1,9 @@
 import React from 'react'
-import Title from '../components/title'
+import Title from '../components/Title'
 import { FaLinkedin, FaGithubSquare, FaDev } from 'react-icons/fa'
-import Subtitle from '../components/subtitle';
-import Techimage from  '../components/techimage'
+import Subtitle from '../components/Subtitle';
+import Techimage from  '../components/Techimage'
+import Button from '../components/Button'
 
 function Homepage() {
   return (
@@ -47,6 +48,7 @@ function Homepage() {
                     </div>
                 </div>
             </div>
+            <Button text="Hello World" />
         </div>
     </div>
   )
