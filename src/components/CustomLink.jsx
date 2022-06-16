@@ -1,9 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function CustomLink({to, children}) {
+import { FaExternalLinkAlt } from 'react-icons/fa'
+
+function CustomLink({to, text}) {
   return (
-    <Link to={to}>{ children }</Link>
+    <Link to={to} className="block">
+      {text}
+      {to.includes('http') && <FaExternalLinkAlt className='inline ml-1'/>}
+    </Link>
   )
 }
 

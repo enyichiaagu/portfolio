@@ -8,21 +8,21 @@ import Button from '../components/Button'
 function Homepage() {
   return (
     <div>
-        <div>
-            <div className="h-64">
+        <div className='flex justify-center'>
+            <div className="h-64 w-64 mr-5 overflow-hidden rounded-full">
                 <img 
                     src="https://i.imgur.com/R1HJNHz.jpg" 
                     alt="Headshot of Amazing Enyichi Agu"
-                    className="h-full"
+                    className="h-64 object-cover"
                 />
             </div>
-            <div>
+            <div className='ml-5'>
                 <div>
                     <span className="text-4xl font-semibold block">Hi. I'm</span>
                     <span className='block text-8xl font-semibold'>Enyichi</span>
                     <span className='block mt-6 font-bold'>Web Developer - Technical Writer</span>
                 </div>
-                <div>
+                <div className='flex mt-2 w-32 justify-between'>
                     <FaLinkedin className='text-4xl'/>
                     <FaGithubSquare className='text-4xl'/>
                     <FaDev className='text-4xl'/>
