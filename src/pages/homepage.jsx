@@ -7,8 +7,8 @@ import Button from '../components/Button'
 
 function Homepage() {
   return (
-    <div>
-        <div className='flex justify-center'>
+    <div className='h-full'>
+        <div className='flex justify-center border-black border-2 py-44 rounded-b-3xl'>
             <div className="h-64 w-64 mr-5 overflow-hidden rounded-full">
                 <img 
                     src="https://i.imgur.com/R1HJNHz.jpg" 
@@ -29,7 +29,7 @@ function Homepage() {
                 </div>
             </div>
         </div>
-        <div>
+        <div className='container mx-auto'>
             <div>
                 <Title text="My Story"/>
                 <p>

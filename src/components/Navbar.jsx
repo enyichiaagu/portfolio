@@ -3,7 +3,7 @@ import CustomLink from './CustomLink'
 
 function Navbar() {
   return (
-    <div className='flex justify-between px-10 py-5'>
+    <div className='flex justify-between h-12 border-black border-2 items-center px-6'>
         <span className='block text-2xl font-semibold'>Portforlio</span>
         <div className='flex w-1/4 justify-between'>
             <CustomLink to="/" text="Home"/>
