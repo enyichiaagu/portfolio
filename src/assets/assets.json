@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Languages",
+        "images": [
+            "https://www.svgrepo.com/show/353884/html-5.svg",
+            "https://www.svgrepo.com/show/353623/css-3.svg",
+            "https://www.svgrepo.com/show/355081/js.svg",
+            "https://www.svgrepo.com/show/354310/sass.svg"
+        ]
+    },
+    {
+        "name": "Technologies",
+        "images": [
+            "https://www.svgrepo.com/show/353498/bootstrap.svg",
+            "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+            "https://www.svgrepo.com/show/354259/react.svg",
+            "https://www.svgrepo.com/show/303658/nodejs-1-logo.svg"
+        ]
+    },
+    {
+        "name": "Tools",
+        "images": [
+            "https://www.svgrepo.com/show/374173/vscode3.svg",
+            "https://www.svgrepo.com/show/303683/heroku-logo.svg",
+            "https://www.svgrepo.com/show/376339/netlify.svg",
+            "https://www.svgrepo.com/show/353778/git.svg",
+            "https://www.svgrepo.com/show/394174/github.svg"
+        ]
+    }
+]
