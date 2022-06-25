@@ -1,15 +1,21 @@
 import React from 'react'
 import Title from '../components/Title'
-import { FaLinkedin, FaGithubSquare, FaDev } from 'react-icons/fa'
 import Button from '../components/Button'
 import SkillItems from '../components/SkillItems'
-import assets from '../assets/assets.json'
+
+import { FaLinkedin, FaGithubSquare, FaDev } from 'react-icons/fa'
 import { AiOutlineRight } from 'react-icons/ai'
+
+import './Homepage.css'
+
+import assets from '../assets/assets.json'
+import CustomLink from '../components/CustomLink'
 
 function Homepage() {
   return (
     <div className='pb-16'>
-        <div className='flex justify-center border-black border-2 py-48 rounded-b-3xl mb-12'>
+        <div className='flex justify-center py-48 rounded-b-3xl mb-12 hero text-white'>
+            {/* <div className='hero w-full h-full absolute'></div> */}
             <div className="h-64 w-64 mr-5 overflow-hidden rounded-full">
                 <img 
                     src="https://i.imgur.com/R1HJNHz.jpg" 
@@ -20,7 +26,7 @@ function Homepage() {
             <div className='ml-5'>
                 <div>
                     <span className="text-4xl font-semibold block">Hi. I'm</span>
-                    <span className='block text-8xl font-semibold'>Enyichi</span>
+                    <span className='block text-8xl font-lily'>Enyichi</span>
                     <span className='block mt-6 font-bold'>Web Developer - Technical Writer</span>
                 </div>
                 <div className='flex mt-2 w-32 justify-between'>
@@ -40,8 +46,8 @@ function Homepage() {
             <div className="mb-32">
                 <Title text="Technical Skills"/>
                 {
-                    assets.map(({name, images}) => (
-                        <SkillItems name={name} images={images}/>
+                    assets.map(({name, images}, index) => (
+                        <SkillItems name={name} images={images} key={index}/>
                     ))
                 }
             </div>

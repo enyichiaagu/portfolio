@@ -8,6 +8,9 @@ module.exports = {
       colors: {
         primary: "#700670",
         bgGray: "#f9f9f9" 
+      },
+      fontFamily: {
+        lily: ['Lily Script One', 'cursive'],
       }
     },
   },
