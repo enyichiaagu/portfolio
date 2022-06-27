@@ -8,5 +8,5 @@
 } */
 
 .container {
-    @apply max-w-screen-md;
+    @apply max-w-screen-md px-4 leading-5 sm:leading-normal min-h-[95vh] mx-auto;
 }

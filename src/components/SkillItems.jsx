@@ -6,7 +6,7 @@ function SkillItems({ name, images }) {
   return (
     <div>
         <Subtitle text={name}/>
-        <div className='flex'>
+        <div className='flex mb-4 flex-wrap'>
             {
                 images.map((url, index) => (
                     <Techimage

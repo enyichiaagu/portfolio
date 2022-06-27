@@ -7,7 +7,8 @@ module.exports = {
     extend: {
       colors: {
         primary: "#700670",
-        bgGray: "#f9f9f9" 
+        bgGray: "#f9f9f9",
+        textGray: "#666666" 
       },
       fontFamily: {
         lily: ['Lily Script One', 'cursive'],
