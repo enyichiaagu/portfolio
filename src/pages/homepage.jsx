@@ -12,22 +12,15 @@ import assets from '../assets/assets.json'
 
 function Homepage() {
   return (
-    <div className='pb-16'>
-        <div className='flex justify-center items-center sm:flex-row flex-col py-12 sm:py-48 rounded-b-3xl hero text-white'>
-            <div className="h-32 sm:h-64 w-32 sm:w-64 sm:mr-5 overflow-hidden rounded-full">
-                <img 
-                    src="https://i.imgur.com/R1HJNHz.jpg" 
-                    alt="Headshot of Amazing Enyichi Agu"
-                    className="h-full object-cover"
-                />
-            </div>
-            <div className='sm:ml-5'>
-                <div className='text-center sm:text-left mt-4 sm:mt-0'>
+    <div className=''>
+        <div className='flex justify-center items-center flex-col py-12 sm:py-48 rounded-b-3xl hero text-white min-h-[50vh]'>
+            <div className=''>
+                <div className='text-center mt-4 sm:mt-0'>
                     <span className="sm:text-4xl text-2xl font-semibold block">Hi. I'm</span>
                     <span className='block text-5xl sm:text-8xl font-russo'>Enyichi</span>
-                    <span className='block mt-2 sm:mt-6 font-bold'>Web Developer - Technical Writer</span>
+                    <span className='block mt-2 font-bold text-xl sm:text-3xl'>Web Developer - Technical Writer</span>
                 </div>
-                <div className='flex mt-4 sm:mt-2 w-32 justify-between mx-auto sm:mx-0'>
+                <div className='flex mt-6 w-32 justify-between mx-auto'>
                     <a href="http://linkedin.com/in/enyichiaagu" target="_blank" rel="noreferrer">
                         <FaLinkedin className='text-4xl hover:text-rose-200'/>
                     </a>

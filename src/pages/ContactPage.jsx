@@ -8,6 +8,7 @@ function ContactPage() {
         <p className='pb-10'>Would you like to contact me? Send me a message through this form.</p>
         <iframe 
             src="https://docs.google.com/forms/d/e/1FAIpQLSen_XQYgRpv8DCGN5d3DkXJ2kVHixmk6NfxK6__OHT1xCKymA/viewform?embedded=true" 
+            title='contact'
             width="100%" 
             height="750" 
             frameborder="0" 
