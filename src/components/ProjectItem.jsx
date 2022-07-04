@@ -1,22 +1,33 @@
-import React, { useEffect } from 'react'
+import React from 'react'
+import CustomLink from './CustomLink'
+import { FaExternalLinkAlt } from 'react-icons/fa'
+
 import Subtitle from './Subtitle'
-import { Link } from 'react-router-dom'
 import Button from './Button'
 
 function ProjectItem({ item }) {
-  
-  const overview = item.description.length > 50 ? item.description.slice(0, 50) : item.description
+
+  const { name, slug, subtitle, images, links } = item;
 
   return (
-    <div className='w-80 bg-white shadow-md'>
-        <img src={item.images[0]} className="w-full"/>
+    <div className='w-full sm:w-[48%] bg-white shadow-md mb-10'>
+        <img src={images[0]} className="w-full" alt="For the components"/>
         <div className='p-2'>
-            <Subtitle text={item.name}/>
-            <p>{overview}<Link to={item.name.toLowerCase()} className="hover:text-rose-200"> ...see more</Link></p>
-            {/* {
-                typeof item.code === 'object' ? 
-                () :  */}
-                <Button moveTo={item.code.front_end}>Button</Button>
+            <Subtitle text={name}/>
+            <p>{subtitle}<CustomLink to={slug} flow> ... see more</CustomLink></p>
+            <div className='my-4 flex flex-wrap'>
+              {
+                links.map((entry, index) => {
+                  return <Button
+                    secondary={ entry.name !== 'Live' }
+                    key={index}>
+                    {entry.name} 
+                    <FaExternalLinkAlt 
+                    className='inline ml-2'/> 
+                  </Button>
+                })
+              }
+            </div>
         </div>
     </div>
   )

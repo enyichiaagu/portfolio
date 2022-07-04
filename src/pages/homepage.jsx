@@ -9,7 +9,6 @@ import { AiOutlineRight } from 'react-icons/ai'
 import './Homepage.css'
 
 import assets from '../assets/assets.json'
-// import CustomLink from '../components/CustomLink'
 
 function Homepage() {
   return (
@@ -25,7 +24,7 @@ function Homepage() {
             <div className='sm:ml-5'>
                 <div className='text-center sm:text-left mt-4 sm:mt-0'>
                     <span className="sm:text-4xl text-2xl font-semibold block">Hi. I'm</span>
-                    <span className='block text-5xl sm:text-8xl font-lily'>Enyichi</span>
+                    <span className='block text-5xl sm:text-8xl font-russo'>Enyichi</span>
                     <span className='block mt-2 sm:mt-6 font-bold'>Web Developer - Technical Writer</span>
                 </div>
                 <div className='flex mt-4 sm:mt-2 w-32 justify-between mx-auto sm:mx-0'>

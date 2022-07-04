@@ -12,6 +12,7 @@ module.exports = {
       },
       fontFamily: {
         lily: ['Lily Script One', 'cursive'],
+        russo: ['Russo One', 'sans-serif']
       }
     },
   },

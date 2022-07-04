@@ -1,49 +1,27 @@
 [
     {
         "name": "Linx",
+        "slug": "linx",
+        "subtitle": "The world's most flexible bookmarker",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
         "images": [
             "https://i.imgur.com/RFnsEoS.png",
             "https://i.imgur.com/SRM8H8l.png",
             "https://i.imgur.com/QewBjZw.png"
         ],
-        "code": {
-            "front_end": "https://github.com/enyichiaagu/linx",
-            "back_end": "https://github.com/enyichiaagu/linx-server"
-        },
-        "live": "https://linxio.netlify.app"
-    },
-    {
-        "name": "Flames",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-        "images": [
-            "https://i.imgur.com/RFnsEoS.png",
-            "https://i.imgur.com/SRM8H8l.png",
-            "https://i.imgur.com/QewBjZw.png"
-        ],
-        "code": "https://github.com/enyichiaagu/linx",
-        "live": "https://linxio.netlify.app"
-    },
-    {
-        "name": "Chatbot",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-        "images": [
-            "https://i.imgur.com/RFnsEoS.png",
-            "https://i.imgur.com/SRM8H8l.png",
-            "https://i.imgur.com/QewBjZw.png"
-        ],
-        "code": "https://github.com/enyichiaagu/linx",
-        "live": "https://linxio.netlify.app"
-    },
-    {
-        "name": "Gradient Generator",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-        "images": [
-            "https://i.imgur.com/RFnsEoS.png",
-            "https://i.imgur.com/SRM8H8l.png",
-            "https://i.imgur.com/QewBjZw.png"
-        ],
-        "code": "https://github.com/enyichiaagu/linx",
-        "live": "https://linxio.netlify.app"
+        "links": [
+            {
+                "name": "Source Code (Front-End)",
+                "src": "https://github.com/enyichiaagu/linx"
+            },
+            {
+                "name": "Source Code (Back-End)",
+                "src": "https://github.com/enyichiaagu/linx-server"
+            },
+            {
+                "name": "Live",
+                "src": "https://linxio.netlify.app"
+            }
+        ]
     }
 ]

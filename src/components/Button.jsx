@@ -1,13 +1,13 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-function Button({ moveTo, children }) {
+function Button({ moveTo, secondary, children }) {
 
   let navigate = useNavigate();
 
   return (
     <div 
-      className='bg-primary text-white w-fit py-2 px-4 rounded cursor-pointer shadow-lg'
+      className={`${secondary ? 'bg-textGray' : 'bg-primary'} text-white w-fit py-2 px-4 rounded cursor-pointer shadow-lg mr-2 mb-2`}
       onClick={() => navigate(moveTo)}
       >{children}
     </div>

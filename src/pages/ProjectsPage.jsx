@@ -7,8 +7,12 @@ function ProjectsPage() {
   return (
     <div className='container'>
         <Title text="My projects"/>
-        <div>
-          <ProjectItem item={projects[0]}/>
+        <div className='my-6 flex flex-wrap justify-between'>
+          {
+            projects.map((project, index) => {
+              return <ProjectItem item={project} key={index} />
+            })
+          }
         </div>
     </div>
   )

@@ -8,11 +8,11 @@ function SkillItems({ name, images }) {
         <Subtitle text={name}/>
         <div className='flex mb-4 flex-wrap'>
             {
-                images.map((url, index) => (
+                images.map((tech, index) => (
                     <Techimage
                         key={index} 
-                        url={url}
-                        title={'tool'}
+                        url={tech.src}
+                        title={tech.title}
                     />
                 ))
             }

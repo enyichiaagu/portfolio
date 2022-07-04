@@ -7,8 +7,8 @@ function Navbar() {
 
   return (
     <div className='flex justify-between px-3 py-2 bg-primary text-white flex-col items-left sm:flex-row sm:px-6 items-center'>
-        <span className='block text-2xl font-semibold cursor-pointer'>
-          <CustomLink to='/'>Portfolio</CustomLink>
+        <span className='block text-2xl font-semibold cursor-pointer font-courier'>
+          <CustomLink to='/'>enyichi.dev</CustomLink>
         </span>
         <div className='justify-between flex w-full pt-2 sm:pt-0 sm:w-80'>
           <CustomNavLink to="/">Home</CustomNavLink>
