@@ -1,73 +1,72 @@
 [
     {
-        "name": "Languages",
-        "images": [
-            {
-                "title": "HTML",
-                "src": "https://www.svgrepo.com/show/353884/html-5.svg"
-            },
-            {
-                "title": "CSS",
-                "src": "https://www.svgrepo.com/show/353623/css-3.svg"
-            },
-            {
-                "title": "Javascript",
-                "src": "https://www.svgrepo.com/show/355081/js.svg"
-            },
-            {
-                "title": "Sass",
-                "src": "https://www.svgrepo.com/show/354310/sass.svg"
-            }
-        ]
+        "title": "HTML",
+        "src": "https://www.svgrepo.com/show/353884/html-5.svg",
+        "type": "lang"
     },
     {
-        "name": "Technologies",
-        "images": [
-            {
-                "title": "Bootstrap",
-                "src": "https://www.svgrepo.com/show/353498/bootstrap.svg"
-            },
-            {
-                "title": "Tailwind CSS",
-                "src": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg"
-            },
-            {
-                "title": "React JS",
-                "src": "https://www.svgrepo.com/show/354259/react.svg"
-            },
-            {
-                "title": "Node JS",
-                "src": "https://www.svgrepo.com/show/303658/nodejs-1-logo.svg"
-            },
-            {
-                "title": "Firebase",
-                "src": "https://www.svgrepo.com/show/353735/firebase.svg"
-            }
-        ]
+        "title": "CSS",
+        "src": "https://www.svgrepo.com/show/353623/css-3.svg",
+        "type": "lang"
     },
     {
-        "name": "Tools",
-        "images": [
-            {
-                "title": "VS Code",
-                "src": "https://www.svgrepo.com/show/374173/vscode3.svg"
-            },
-            {
-                "title": "Heroku",
-                "src": "https://www.svgrepo.com/show/303683/heroku-logo.svg"
-            },
-            {
-                "title": "Netlify",
-                "src": "https://www.svgrepo.com/show/376339/netlify.svg"
-            },
-            {
-                "title": "Git",
-                "src": "https://www.svgrepo.com/show/353778/git.svg"
-            },
-            {
-                "title": "Github",
-                "src": "https://www.svgrepo.com/show/394174/github.svg"
-            }
-        ]
+        "title": "Javascript",
+        "src": "https://www.svgrepo.com/show/355081/js.svg",
+        "type": "lang"
+    },
+    {
+        "title": "Sass",
+        "src": "https://www.svgrepo.com/show/354310/sass.svg",
+        "type": "lang"
+    },
+    {
+        "title": "Bootstrap",
+        "src": "https://www.svgrepo.com/show/353498/bootstrap.svg",
+        "type": "tech"
+    },
+    {
+        "title": "Tailwind CSS",
+        "src": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+        "type": "tech"
+    },
+    {
+        "title": "React JS",
+        "src": "https://www.svgrepo.com/show/354259/react.svg",
+        "type": "tech"
+    },
+    {
+        "title": "Node JS",
+        "src": "https://www.svgrepo.com/show/303658/nodejs-1-logo.svg",
+        "type": "tech"
+    },
+    {
+        "title": "Firebase",
+        "src": "https://www.svgrepo.com/show/353735/firebase.svg",
+        "type": "tech"
+    },
+    {
+        "title": "VS Code",
+        "src": "https://www.svgrepo.com/show/374173/vscode3.svg",
+        "type": "tool"
+    },
+    {
+        "title": "Heroku",
+        "src": "https://www.svgrepo.com/show/303683/heroku-logo.svg",
+        "type": "tool"
+    },
+    {
+        "title": "Netlify",
+        "src": "https://www.svgrepo.com/show/376339/netlify.svg",
+        "type": "tool"
+    },
+    {
+        "title": "Git",
+        "src": "https://www.svgrepo.com/show/353778/git.svg",
+        "type": "tool"
+    },
+    {
+        "title": "Github",
+        "src": "https://www.svgrepo.com/show/394174/github.svg",
+        "type": "tool"
     }
 ]

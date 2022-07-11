@@ -1,14 +1,12 @@
 import React from 'react'
 import Title from '../components/Title'
 import Button from '../components/Button'
-import SkillItems from '../components/SkillItems'
+import TechnicalSkills from '../components/TechnicalSkills'
 
 import { FaLinkedin, FaGithubSquare, FaDev } from 'react-icons/fa'
 import { AiOutlineRight } from 'react-icons/ai'
 
 import './Homepage.css'
-
-import assets from '../assets/assets.json'
 
 function Homepage() {
   return (
@@ -40,14 +38,9 @@ function Homepage() {
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate facere asperiores consectetur. Expedita commodi, id veniam harum impedit maxime esse earum quae quo, delectus praesentium! Dicta quae at officia, dolor minima amet distinctio maiores. Repellendus impedit assumenda officia unde distinctio nemo quia beatae consectetur? Odio minus nesciunt sequi cumque aliquam.
                 </p>
             </div>
-            <div className="mb-16 sm:mb-32">
-                <Title text="Technical Skills"/>
-                {
-                    assets.map(({name, images}, index) => (
-                        <SkillItems name={name} images={images} key={index}/>
-                    ))
-                }
-            </div>
+
+            <TechnicalSkills />
+            
             <div className='flex justify-end'>
                 <Button moveTo={'projects'}>View my Projects <AiOutlineRight className='inline'/> </Button>
             </div>
