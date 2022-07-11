@@ -2,7 +2,7 @@ import React from 'react'
 import Subtitle from './Subtitle'
 import Techimage from './Techimage'
 
-function SkillItems({ name, images }) {
+function SkillItems({ name, images=[] }) {
   return (
     <div>
         <Subtitle text={name}/>

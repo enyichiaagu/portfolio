@@ -9,6 +9,12 @@
             "https://i.imgur.com/SRM8H8l.png",
             "https://i.imgur.com/QewBjZw.png"
         ],
+        "stack": [
+            "Mongo DB",
+            "React JS",
+            "Express JS",
+            "Node JS"
+        ],
         "links": [
             {
                 "name": "Source Code (Front-End)",
