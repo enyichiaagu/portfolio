@@ -11,7 +11,6 @@ module.exports = {
         textGray: "#666666" 
       },
       fontFamily: {
-        lily: ['Lily Script One', 'cursive'],
         russo: ['Russo One', 'sans-serif']
       }
     },
