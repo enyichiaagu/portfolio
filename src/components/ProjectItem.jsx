@@ -5,7 +5,7 @@ import Button from './Button'
 
 function ProjectItem({ item }) {
 
-  const { name, slug, subtitle, images, links } = item;
+  const { name, slug, subtitle, images } = item;
 
   return (
     <div className='w-full sm:w-[48%] bg-white shadow-md hover:shadow-xl mb-10 transition-shadow transition-shadow'>

@@ -1,16 +1,24 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
-function Button({ moveTo, secondary, children }) {
+function Button({ moveTo, external, secondary, children }) {
 
-  let navigate = useNavigate();
+  const classList = `${secondary ? 'bg-textGray hover:bg-textGray-dark' : 'bg-primary hover:bg-primary-dark'} text-white w-fit py-2 px-4 rounded cursor-pointer hover:shadow-lg mr-2 mb-2 transition-shadow transition-colors`;
 
   return (
-    <div 
-      className={`${secondary ? 'bg-textGray hover:bg-textGray-dark' : 'bg-primary hover:bg-primary-dark'} text-white w-fit py-2 px-4 rounded cursor-pointer hover:shadow-lg mr-2 mb-2 transition-shadow transition-colors `}
-      onClick={() => navigate(moveTo)}
+    external ?
+    <a
+      className={classList}
+      href={moveTo}
+      target='_blank'
+      rel='noreferrer'
       >{children}
-    </div>
+    </a> :
+    <Link
+      className={classList}
+      to={moveTo}
+      >{children}
+    </Link>
   )
 }
 

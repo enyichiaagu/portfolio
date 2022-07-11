@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { useParams } from 'react-router-dom'
 import { AiOutlineRight } from 'react-icons/ai'
 import { FaExternalLinkAlt } from 'react-icons/fa'
@@ -50,6 +50,8 @@ function SingleProjectPage() {
             links.map((entry, index) => {
               return <Button
                 secondary={ entry.name !== 'Live' }
+                moveTo={entry.src}
+                external
                 key={index}>
                 {entry.name} 
                 <FaExternalLinkAlt 
