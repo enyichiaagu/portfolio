@@ -7,6 +7,7 @@ import { FaLinkedin, FaGithubSquare, FaDev } from 'react-icons/fa'
 import { AiOutlineRight } from 'react-icons/ai'
 
 import './Homepage.css'
+import CustomLink from '../components/CustomLink'
 
 function Homepage() {
   return (
@@ -34,9 +35,11 @@ function Homepage() {
         <div className='container'>
             <div>
                 <Title text="My Story"/>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate facere asperiores consectetur. Expedita commodi, id veniam harum impedit maxime esse earum quae quo, delectus praesentium! Dicta quae at officia, dolor minima amet distinctio maiores. Repellendus impedit assumenda officia unde distinctio nemo quia beatae consectetur? Odio minus nesciunt sequi cumque aliquam.
-                </p>
+                <div>
+                    <p className='my-2'>Hello, My name is Amazing Enyichi Agu, and I'm passionate about solving problems using technology. I have 2+ years of experience in web development and use Javascript as my primary programming language.</p>
+                    <p className='my-2'>I am also a community manager/tutor at <CustomLink to='https://www.youtube.com/channel/UCvpJno4cx0hxv7n5t707N7A' flow external>Codehouse</CustomLink>, an online community where I mentor upcoming programmers who don't have laptops yet, teaching them how to Code using their smartphones.</p>
+                    <p className='my-2'>I also am a contract technical author at the <CustomLink to='https://blog.openreplay.com/authors/amazing-enyichi-agu' flow external>Openreplay blog</CustomLink>, and a contributor to <CustomLink to='https://www.freecodecamp.org/news/author/enyichi/' external flow>freeCodeCamp's blog</CustomLink>.</p>
+                </div>
             </div>
 
             <TechnicalSkills />
