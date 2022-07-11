@@ -2,7 +2,7 @@ import React from 'react'
 
 function Techimage({ url, title }) {
   return (
-    <div className='shadow-md p-4 m-2 bg-white'>
+    <div className='shadow-md p-4 m-2 bg-white h-fit'>
         <div className='w-full'>
           <img src={url} alt={title} className="w-12 sm:w-20 mx-auto"/>
         </div>

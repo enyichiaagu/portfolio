@@ -35,6 +35,21 @@
         "type": "tech"
     },
     {
+        "title": "Redux",
+        "src": "https://www.svgrepo.com/show/354274/redux.svg",
+        "type": "tech"
+    },
+    {
+        "title": "Inferno JS",
+        "src": "https://www.svgrepo.com/show/353900/inferno.svg",
+        "type": "tech"
+    },
+    {
+        "title": "Lit JS",
+        "src": "https://svgur.com/i/izQ.svg",
+        "type": "tech"
+    },
+    {
         "title": "Node JS",
         "src": "https://www.svgrepo.com/show/303658/nodejs-1-logo.svg",
         "type": "tech"
@@ -42,6 +57,16 @@
     {
         "title": "Firebase",
         "src": "https://www.svgrepo.com/show/353735/firebase.svg",
+        "type": "tech"
+    },
+    {
+        "title": "Mongo DB",
+        "src": "https://www.svgrepo.com/show/373845/mongo.svg",
+        "type": "tech"
+    },
+    {
+        "title": "Express JS",
+        "src": "https://www.svgrepo.com/show/330398/express.svg",
         "type": "tech"
     },
     {
