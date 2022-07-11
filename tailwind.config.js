@@ -6,9 +6,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#700670",
-        bgGray: "#f9f9f9",
-        textGray: "#666666" 
+        primary: {
+          DEFAULT: "#700670",
+          dark: "#580558"
+        },
+        bgGray: {
+          DEFAULT: "#f9f9f9",
+          dark: "#d4d3d3"
+        },
+        textGray: {
+          DEFAULT: "#666666",
+          dark: "#585757"
+        }
       },
       fontFamily: {
         russo: ['Russo One', 'sans-serif']

@@ -7,7 +7,7 @@ function Button({ moveTo, secondary, children }) {
 
   return (
     <div 
-      className={`${secondary ? 'bg-textGray' : 'bg-primary'} text-white w-fit py-2 px-4 rounded cursor-pointer shadow-lg mr-2 mb-2`}
+      className={`${secondary ? 'bg-textGray hover:bg-textGray-dark' : 'bg-primary hover:bg-primary-dark'} text-white w-fit py-2 px-4 rounded cursor-pointer hover:shadow-lg mr-2 mb-2 transition-shadow transition-colors `}
       onClick={() => navigate(moveTo)}
       >{children}
     </div>
