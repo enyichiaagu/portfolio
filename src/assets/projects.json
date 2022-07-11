@@ -29,5 +29,83 @@
                 "src": "https://linxio.netlify.app"
             }
         ]
+    },
+    {
+        "name": "Flames",
+        "slug": "flames",
+        "subtitle": "A fun game that uses the 'FLAMES' rule to check compatibility of couples",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "images": [
+            "https://i.imgur.com/N8HgwL1.png",
+            "https://i.imgur.com/YX0BUXS.png",
+            "https://i.imgur.com/zXQ9Swi.png"
+        ],
+        "stack": [
+            "Javascript",
+            "HTML",
+            "CSS"
+        ],
+        "links": [
+            {
+                "name": "Source Code",
+                "src": "https://github.com/enyichiaagu/flames"
+            },
+            {
+                "name": "Live",
+                "src": "https://yichflames.netlify.app"
+            }
+        ]
+    },
+    {
+        "name": "Chatbot",
+        "slug": "chatbot",
+        "subtitle": "A Chatbot that can reply to simple commands and tell jokes. I worked on the Front-End of the project",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "images": [
+            "https://i.imgur.com/X5NjU9T.png",
+            "https://i.imgur.com/sHZlmZe.png",
+            "https://i.imgur.com/y2WYoAK.png"
+        ],
+        "stack": [
+            "HTML",
+            "CSS",
+            "Javascript"
+        ],
+        "links": [
+            {
+                "name": "Source Code",
+                "src": "https://github.com/enyichiaagu/chat_bot"
+            },
+            {
+                "name": "Live",
+                "src": "https://dan-chatbot.herokuapp.com/"
+            }
+        ]
+    },
+    {
+        "name": "Gradient Generator",
+        "slug": "gradient-generator",
+        "subtitle": "Generate a CSS Color Gradient with up to 5 different colors. Also use different gradient styles such as diagonal, cornical and so on.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "images": [
+            "https://i.imgur.com/jN9YyrZ.png",
+            "https://i.imgur.com/9g55jOo.png",
+            "https://i.imgur.com/891Neb8.png"
+        ],
+        "stack": [
+            "HTML",
+            "SCSS",
+            "Javascript"
+        ],
+        "links": [
+            {
+                "name": "Source Code",
+                "src": "https://github.com/enyichiaagu/gradient-generator"
+            },
+            {
+                "name": "Live",
+                "src": "https://color-gradient-generator.netlify.app/"
+            }
+        ]
     }
 ]

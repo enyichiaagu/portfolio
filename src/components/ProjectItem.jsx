@@ -8,7 +8,7 @@ function ProjectItem({ item }) {
   const { name, slug, subtitle, images } = item;
 
   return (
-    <div className='w-full sm:w-[48%] bg-white shadow-md hover:shadow-xl mb-10 transition-shadow transition-shadow'>
+    <div className='w-full h-fit sm:w-[48%] bg-white shadow-md hover:shadow-xl mb-10 transition-shadow transition-shadow'>
         <img src={images[0]} className="w-full" alt="For the components"/>
         <div className='p-2'>
             <Subtitle text={name}/>
