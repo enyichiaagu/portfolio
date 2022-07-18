@@ -1,5 +1,28 @@
 [
     {
+        "name": "Portfolio Website",
+        "slug": "portfolio",
+        "subtitle": "My Portforlio Website",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "images": [
+            "https://i.imgur.com/SW6gSeb.png",
+            "https://i.imgur.com/l19HDDX.png",
+            "https://i.imgur.com/3Ueznhj.png"
+        ],
+        "stack": [
+            "React JS",
+            "Tailwind CSS",
+            "Javascript",
+            "Email JS"
+        ],
+        "links": [
+            {
+                "name": "Source Code",
+                "src": "https://github.com/enyichiaagu/portfolio"
+            }
+        ]
+    },
+    {
         "name": "Linx",
         "slug": "linx",
         "subtitle": "The world's most flexible bookmarker",
@@ -27,6 +50,26 @@
             {
                 "name": "Live",
                 "src": "https://linxio.netlify.app"
+            }
+        ]
+    },
+    {
+        "name": "Crypto CLI",
+        "slug": "crypto-cli",
+        "subtitle": "A Command Line Application for viewing live prices of cryptocurrencies",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "images": [
+            "https://i.imgur.com/dyWcoME.png",
+            "https://i.imgur.com/14FJNAu.png"
+        ],
+        "stack": [
+            "React JS",
+            "Node JS"
+        ],
+        "links": [
+            {
+                "name": "Source Code",
+                "src": "https://github.com/enyichiaagu/crypto-cli"
             }
         ]
     },
