@@ -2,8 +2,8 @@
     {
         "name": "Portfolio Website",
         "slug": "portfolio",
-        "subtitle": "My Portforlio Website",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "subtitle": "A website to display my skills and best projects so far.",
+        "description": "In order to bring all my projects together in a place, I created a Portfolio Website. This website contains information about me. There is a short Introduction, tools I work with, skills I possess and of course, my projects. It also contains Links to view the source code of my projects. For the Projects I have deployed on a domain, I also provide links to view and interact with them. This website was built with React JS, styled with Tailwind CSS and the contact functionality implemented with Email JS.",
         "images": [
             "https://i.imgur.com/SW6gSeb.png",
             "https://i.imgur.com/l19HDDX.png",
@@ -12,7 +12,7 @@
         "stack": [
             "React JS",
             "Tailwind CSS",
-            "Javascript",
+            "JavaScript",
             "Email JS"
         ],
         "links": [
@@ -25,8 +25,8 @@
     {
         "name": "Linx",
         "slug": "linx",
-        "subtitle": "The world's most flexible bookmarker",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "subtitle": "Access your favorite resources on the internet with any device.",
+        "description": "This is a Full Stack project built with Mongo DB, Express, React and Node JS (MERN). It is a central store for saving favorite internet links especially for users with multiple devices. A user creates a new account or logs in if they already have one. Once Logged in, they have access to all the links they have saved on their accounts. They can also manage their links by adding, deleting or renaming them. This project demonstrates CRUD operations in the MERN Stack.",
         "images": [
             "https://i.imgur.com/RFnsEoS.png",
             "https://i.imgur.com/SRM8H8l.png",
@@ -36,7 +36,8 @@
             "Mongo DB",
             "React JS",
             "Express JS",
-            "Node JS"
+            "Node JS",
+            "CSS"
         ],
         "links": [
             {
@@ -56,8 +57,8 @@
     {
         "name": "Crypto CLI",
         "slug": "crypto-cli",
-        "subtitle": "A Command Line Application for viewing live prices of cryptocurrencies",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "subtitle": "A Command Line Interface for viewing live prices of selected Cryptocurrencies and Tokens",
+        "description": "This project demonstrates the ability of React JS to work on the Command Line. It is made possible through a popular library called Ink. The project brings React's declarative approach to designing User Interfaces (UI), to the Command Line. The live cryptocurrency data is gotten from the CoinGecko API and Axios is the library used to fetch the data. An article on the build process was documented on freeCodeCamp.",
         "images": [
             "https://i.imgur.com/dyWcoME.png",
             "https://i.imgur.com/14FJNAu.png"
@@ -68,6 +69,10 @@
         ],
         "links": [
             {
+                "name": "Article on freeCodeCamp",
+                "src": "https://freecodecamp.org/news/react-js-ink-cli-tutorial/"
+            },
+            {
                 "name": "Source Code",
                 "src": "https://github.com/enyichiaagu/crypto-cli"
             }
@@ -76,15 +81,15 @@
     {
         "name": "Flames",
         "slug": "flames",
-        "subtitle": "A fun game that uses the 'FLAMES' rule to check compatibility of couples",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "subtitle": "A fun game that uses the \"FLAMES\" rule to check the compatibility of lovers.",
+        "description": "Calculation of the results using the \"FLAMES\" rule was done with JavaScript. This project demonstrates Document Object Model (DOM) manipulation and CSS Transitions. It also features dark and light mode. The color scheme was inspired by a common interpretation of Pink to convey strong feelings of affection.",
         "images": [
             "https://i.imgur.com/N8HgwL1.png",
             "https://i.imgur.com/YX0BUXS.png",
             "https://i.imgur.com/zXQ9Swi.png"
         ],
         "stack": [
-            "Javascript",
+            "JavaScript",
             "HTML",
             "CSS"
         ],
@@ -102,8 +107,8 @@
     {
         "name": "Chatbot",
         "slug": "chatbot",
-        "subtitle": "A Chatbot that can reply to simple commands and tell jokes. I worked on the Front-End of the project",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "subtitle": "A Chatbot that can reply to simple commands and tell jokes.",
+        "description": "In this project, I designed the User Interface (UI) of the Chatbot using CSS. The server of the project was built with Flask, a web server side scripting framework for the Python Programming Language. This bot can reply to simple messages and tell great jokes.",
         "images": [
             "https://i.imgur.com/X5NjU9T.png",
             "https://i.imgur.com/sHZlmZe.png",
@@ -112,7 +117,7 @@
         "stack": [
             "HTML",
             "CSS",
-            "Javascript"
+            "JavaScript"
         ],
         "links": [
             {
@@ -128,8 +133,8 @@
     {
         "name": "Gradient Generator",
         "slug": "gradient-generator",
-        "subtitle": "Generate a CSS Color Gradient with up to 5 different colors. Also use different gradient styles such as diagonal, cornical and so on.",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "subtitle": "Generate a CSS Color Gradient with up to five different colors.",
+        "description": "This project is a website that generates code on CSS Gradients. The user can select up to five different colors on a gradient. The user can also choose from four different styles of a gradient. This Web App also provides a random button for generating completely random gradients with different colors. The Web App was styled with SCSS.",
         "images": [
             "https://i.imgur.com/jN9YyrZ.png",
             "https://i.imgur.com/9g55jOo.png",
@@ -137,8 +142,8 @@
         ],
         "stack": [
             "HTML",
-            "SCSS",
-            "Javascript"
+            "Sass",
+            "JavaScript"
         ],
         "links": [
             {

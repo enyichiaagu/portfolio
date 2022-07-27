@@ -14,7 +14,7 @@ function Navbar() {
           <CustomNavLink to="/">Home</CustomNavLink>
           <CustomNavLink to="projects">Projects</CustomNavLink>
           <CustomNavLink to="contact">Contact</CustomNavLink>
-          <a href="http://" className='block hover:text-rose-200'>Articles <FaExternalLinkAlt className='inline'/></a>
+          <a href="https://docs.google.com/document/d/e/2PACX-1vQtuUSrjc0uFmaaE6UJsWSo_iGHKtgNgVBeJvRhT4DqXEpmD1azdtrme0bNP2ukQP1IF_EtvXBkfRiu/pub" className='block hover:text-rose-200' target="_blank" rel="noreferrer">Articles <FaExternalLinkAlt className='inline'/></a>
         </div>
     </div>
   )
