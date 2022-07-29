@@ -6,10 +6,10 @@ import TechnicalSkills from '../components/TechnicalSkills'
 import { FaLinkedin, FaGithubSquare, FaDev } from 'react-icons/fa'
 import { AiOutlineRight } from 'react-icons/ai'
 
-import './Homepage.css'
+import './HomePage.css'
 import CustomLink from '../components/CustomLink'
 
-function Homepage() {
+function HomePage() {
   return (
     <div className=''>
         <div className='flex justify-center items-center flex-col py-12 sm:py-48 rounded-b-3xl hero text-white min-h-[50vh]'>
