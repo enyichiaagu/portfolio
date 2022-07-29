@@ -1,4 +1,4 @@
-import Homepage from './pages/Homepage'
+import HomePage from './pages/HomePage'
 import ProjectsPage from './pages/ProjectsPage'
 import SingleProjectPage from './pages/SingleProjectPage'
 import ContactPage from './pages/ContactPage'
@@ -13,7 +13,7 @@ function App() {
     <div>
       <Navbar />        
       <Routes>
-        <Route path='/' element={<Homepage/>} />
+        <Route path='/' element={<HomePage/>} />
         <Route path='projects' element={<ProjectsPage />} />
         <Route path="projects/:project" element={<SingleProjectPage />} />
         <Route path='contact' element={<ContactPage />} />
