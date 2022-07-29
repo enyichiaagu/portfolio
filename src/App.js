@@ -1,5 +1,5 @@
-import ProjectsPage from './pages/ProjectsPage'
 import Homepage from './pages/Homepage'
+import ProjectsPage from './pages/ProjectsPage'
 import SingleProjectPage from './pages/SingleProjectPage'
 import ContactPage from './pages/ContactPage'
 import Footer from './components/Footer'
