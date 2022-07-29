@@ -1,3 +1,5 @@
+import React from 'react'
+
 import Homepage from './pages/Homepage'
 import ProjectsPage from './pages/ProjectsPage'
 import SingleProjectPage from './pages/SingleProjectPage'
