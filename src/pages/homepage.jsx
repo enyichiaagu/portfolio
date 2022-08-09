@@ -36,10 +36,10 @@ function HomePage() {
             <div>
                 <Title text="My Story"/>
                 <div>
-                    <p className='my-2'>My Full Name is Amazing Enyichi Agu, and I'm passionate about solving problems using technology. I started teaching myself how to code when I was 17 because building new things fascinated me. I use Javascript as my primary programming language.</p>
-                    <p className="my-2">Currently, I am an undergraduate student of University of Nigeria, Nsukka (UNN) studying Computer Science and Statistics (Combined). I am also an active member of Google Developer Student Club (GDSC) and Ingressive For Good (I4G) communities in my school.</p>
+                    <p className='my-2'>My Full Name is Amazing Enyichi Agu, and I'm passionate about solving problems using technology. I started teaching myself how to code when I was 17 because building new things fascinated me. Now, I use Javascript as my primary programming language.</p>
                     <p className="my-2">I am from a Third world Country, which means that not a lot of people who want to learn how to code here can easily afford laptops. For this reason, I created <CustomLink to='https://www.youtube.com/channel/UCvpJno4cx0hxv7n5t707N7A' flow external>Codehouse</CustomLink>. Codehouse is an online community where I teach people interested in tech how to code using their smartphones.</p>
                     <p className="my-2">I also find that writing articles on concepts I already know reinforce them making them much harder to forget. For this reason, I am a technical author on the <CustomLink to='https://blog.openreplay.com/authors/amazing-enyichi-agu' flow external>Openreplay blog</CustomLink>, and a <CustomLink to='https://www.freecodecamp.org/news/author/enyichi/' external flow>freeCodeCamp contributor.</CustomLink>.</p>
+                    <p className="my-2">I am currently looking for a Full-time role in either of Front-End, Back-End, Full-Stack Web development, Technical Writing or Developer Relations. Feel free to reach out to me on my contact page. I will get your message as an email.</p>
                     <p className="my-2">Welcome to my Portfolio website, and have a great day.</p>
                 </div>
             </div>
