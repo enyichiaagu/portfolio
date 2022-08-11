@@ -21,7 +21,10 @@ module.exports = {
       },
       fontFamily: {
         russo: ['Russo One', 'sans-serif']
-      }
+      },
+      backgroundImage: {
+        'hero': "url('/src/assets/images/hero.svg')"
+      },
     },
   },
   plugins: [
