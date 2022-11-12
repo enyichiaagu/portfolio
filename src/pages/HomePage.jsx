@@ -15,7 +15,7 @@ function HomePage() {
             <div className=''>
                 <div className='text-center mt-4 sm:mt-0'>
                     <span className="sm:text-4xl text-2xl font-semibold block">Hi. I'm</span>
-                    <span className='block text-5xl sm:text-8xl font-russo'>Enyichi</span>
+                    <span className='block text-5xl sm:text-8xl font-russo'>Amazing</span>
                     <span className='block mt-2 font-bold text-xl sm:text-3xl'>Web Developer - Technical Writer</span>
                 </div>
                 <div className='flex mt-6 w-32 justify-between mx-auto'>
@@ -35,11 +35,9 @@ function HomePage() {
             <div>
                 <Title text="My Story"/>
                 <div>
-                    <p className='my-2'>My Full Name is Amazing Enyichi Agu, and I'm passionate about solving problems using technology. I started teaching myself how to code when I was 17 because building new things fascinated me. Now, I use Javascript as my primary programming language.</p>
-                    <p className="my-2">I am from a Third world Country, which means that not a lot of people who want to learn how to code here can easily afford laptops. For this reason, I created <CustomLink to='https://www.youtube.com/channel/UCvpJno4cx0hxv7n5t707N7A' flow external>Codehouse</CustomLink>. Codehouse is an online community where I teach people interested in tech how to code using their smartphones.</p>
+                    <p className='my-2'>My Full Name is Amazing Enyichi Agu, and I'm passionate about solving problems using technology. I started teaching myself how to code because building new things fascinated me. Now, I use Javascript as my primary programming language.</p>
+                    <p className="my-2">I am from a Third world Country, which means that not a lot of people who want to learn how to code here can easily afford laptops. This led to me creating <CustomLink to='https://www.youtube.com/channel/UCvpJno4cx0hxv7n5t707N7A' flow external>Codehouse</CustomLink>. Codehouse is an online community where I teach people interested in tech how to code using just their smartphones.</p>
                     <p className="my-2">I also find that writing articles on concepts I already know reinforce them making them much harder to forget. For this reason, I am a technical author on the <CustomLink to='https://blog.openreplay.com/authors/amazing-enyichi-agu' flow external>Openreplay blog</CustomLink>, and a <CustomLink to='https://www.freecodecamp.org/news/author/enyichi/' external flow>freeCodeCamp contributor.</CustomLink>.</p>
-                    <p className="my-2">I am currently looking for a Full-time role in either of Front-End, Back-End, Full-Stack Web development, Technical Writing or Developer Relations. Feel free to reach out to me on my contact page. I will get your message as an email.</p>
-                    <p className="my-2">Welcome to my Portfolio website, and have a great day.</p>
                 </div>
             </div>
 
